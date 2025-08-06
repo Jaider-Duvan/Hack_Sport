@@ -1,0 +1,19 @@
+:root{
+    --buff: #e59f71ff;
+    --sinopia: #ba5a31ff;
+    --night: #0c0c0cff;
+    --emerald: #69dc9eff;
+    --white: #ffffffff;
+}
+
+*{
+    background-color: var(--color-fondo);
+}
+
+button{
+    border-radius: 5px;
+}
+
+button:hover{
+        border: 1px solid var(--color-boton);
+}
