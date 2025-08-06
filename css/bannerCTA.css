@@ -1,0 +1,15 @@
+:root{
+    --buff: #e59f71ff;
+    --sinopia: #ba5a31ff;
+    --night: #0c0c0cff;
+    --emerald: #69dc9eff;
+    --white: #ffffffff;
+}
+
+.Banner-cta{
+    background-color: #e59f71;
+}
+
+.Parrafo_banner{
+    font-size: 24;
+}

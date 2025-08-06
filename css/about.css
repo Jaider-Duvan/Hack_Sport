@@ -1,0 +1,20 @@
+#img-about{
+    width: 550px;
+    height: 350px;
+    border-radius: 50px;
+}
+
+
+/* Estilos iniciales para la tarjeta */
+.card.mb-3 {
+    border: 1px solid #ccc; 
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Estilos que se aplican al pasar el cursor (hover) */
+.card.mb-3:hover {
+    transform: scale(1.05); 
+    border-color: #007bff; 
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.493); 
+    cursor: pointer; 
+}
