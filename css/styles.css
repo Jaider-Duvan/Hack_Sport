@@ -6,14 +6,15 @@
     --white: #ffffffff;
 }
 
-*{
-    background-color: var(--color-fondo);
-}
 
 button{
+    background: var(--sinopia);
     border-radius: 5px;
+    color: var(--white);
+    width: 70;
+    height: 50;
 }
 
 button:hover{
-        border: 1px solid var(--color-boton);
+    width: 60px;
 }

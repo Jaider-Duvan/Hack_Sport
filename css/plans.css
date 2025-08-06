@@ -1,0 +1,42 @@
+:root {
+    --buff: #e59f71ff;
+    --sinopia: #ba5a31ff;
+    --night: #0c0c0cff;
+    --emerald: #69dc9eff;
+    --white: #ffffffff;
+}
+
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+.carousel-control-prev-icon {
+    filter: invert(1);
+}
+
+button.btn.btn-primary.m-3{
+    background: var(--emerald);
+    border: 1px solid  #5f5f5f9f;
+    font-weight: 700;
+    color: var(--night);
+}
+
+div.card.mb-3.mt-5{
+    border: 1px solid #5f5f5f9f;
+}
+
+button.btn-barra, button.active{
+    filter: invert(1);
+}
+
+div.carousel-indicators{
+    margin-top: 30px;
+}
+
+div.carousel-item {
+    transition: transform 1s ease-in-out;
+}
+
+h5.card-title.text-center{
+    font-weight: 700;
+}

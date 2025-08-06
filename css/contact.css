@@ -1,0 +1,22 @@
+:root {
+    --buff: #e59f71ff;
+    --sinopia: #ba5a31ff;
+    --night: #0c0c0cff;
+    --emerald: #69dc9eff;
+    --white: #ffffffff;
+}
+
+
+
+button.btn.btn-primary {
+    background: var(--emerald);
+    border: 1px solid #5f5f5f9f;
+    font-weight: 700;
+    color: var(--night);
+}
+
+form input.form-control:focus, textarea.form-control:focus {
+    outline: none;
+    border: 2px solid var(--sinopia);
+    box-shadow: 0 0 5px var(--sinopia);
+}
