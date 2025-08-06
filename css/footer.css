@@ -1,0 +1,80 @@
+:root {
+  --buff: #e59f71ff;
+  --emerald: #69dc9eff;
+  --white: #ffffffff;
+  --black: #000000;
+}
+
+.custom-footer {
+  background-color: var(--buff);
+  font-family: 'DM Sans', sans-serif;
+  color: var(--black);
+}
+
+.footer-brand {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: var(--black);
+}
+
+/* SPORT */
+.footer-highlight {
+  color: var(--white);
+}
+
+/* título */
+.footer-title {
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+}
+
+.footer a {
+  color: var(--black);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.3rem;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: var(--white);
+}
+
+/* redes */
+.redes-sociales {
+  display: flex;
+  gap: 15px;
+  margin-top: 8px;
+}
+
+.red-social i {
+  font-size: 1.4rem;
+  color: var(--black);
+  transition: color 0.3s ease;
+}
+
+/* hover blanco */
+.red-social:hover i {
+  color: var(--white);
+}
+
+/* lista sin estilos */
+.info {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* línea inferior */
+.footer-line {
+  border-color: black;
+  opacity: 0.3;
+}
+
+/* texto derechos reservados */
+.footer-copy {
+  font-size: 0.8rem;
+  color: var(--black);
+}
