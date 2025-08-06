@@ -1,0 +1,22 @@
+/*----------------------------------------------------------
+SECCION PRODUCTOS
+----------------------------------------------------------*/
+#productos {
+    padding: 3rem 5rem;
+}
+
+/*----------------------------------------------------------
+SECCION CARRITO DE PRODUCTOS
+----------------------------------------------------------*/
+#carrito-compras {
+    z-index: 1000;
+    width: 50vw;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 5px 5px 10px #69dc9eff;
+    border-radius: 10px;
+}
+

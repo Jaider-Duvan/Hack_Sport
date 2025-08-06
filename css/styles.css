@@ -8,11 +8,15 @@
 
 
 button{
+<<<<<<< HEAD
     background: var(--sinopia);
     border-radius: 5px;
     color: var(--white);
     width: 70;
     height: 50;
+=======
+    border-radius: 50px;
+>>>>>>> e87a3a1575eb3061d275d9c4f4b3ec8e12dea214
 }
 
 button:hover{
